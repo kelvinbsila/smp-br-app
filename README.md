@@ -10,8 +10,11 @@
 
 ### *Descrição* :grey_exclamation:
 Sistema para automatizar processo de conferencia de empilhadeira na troca de turno
+
 Sistema responivo para uso no Coletor de dado MC32U e para Desktops
+
 > Status do projeto: em desenvolvimento
+
 > Apenas Front-end desenvolvido
 
 
