@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <title>Montiramento de empilhadeira</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen and (min-width: 0px)' href='../Styles/small.css'>
+    <link rel='stylesheet' type='text/css' media='screen and (min-width: 321px)' href='../Styles/large.css'>
+
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="../img/logo.png" style="width: 170px; margin-left: 15px;" alt="">
+    </header>
+
+    <div class="container">
+        <div style="margin-left: 20px; margin-bottom: 15px;">
+            <h2> Inspeção de empilhadeira</h2>
+        </div>
+
+        <div class="boxC">
+
+            <div class="centro">
+                <label for="Turno">Turno</label>
+                <select id="Turno" name="Turno" form="Turnoform">
+                    <option value="1_Turno">1°Turno</option>
+                    <option value="2_Turno">2°Turno</option>
+                    <option value="3_Turno">3°Turno</option>
+                </select>
+                <label for="Setor">Setor</label>
+                <select id="Turno" name="Turno" form="Turnoform">
+                    <option value="">..</option>
+                    <option value="">..</option>
+                    <option value="">..</option>
+                </select>
+                </br>
+
+                </br>
+                <label for="hora_i">Horimetro Inicial</label>
+                <input type="number" id="hora_i">
+                </br>
+                <label for="hora_f">Horimetro Final</label>
+                <input type="number" id="hora_f">
+
+            </div>
+            <div style="font-size: 13px; margin-top: 15px;">
+                CHECK-LIST DE EMPILHADEIRA N°
+            </div>
+
+
+            <div class="table">
+                <table style="margin: 0 auto;">
+
+                    <tr style="background: rgb(0, 0, 0); color: rgb(224, 224, 224); border: 1px white; ">
+                        <th style="text-align: left;">Atividade</th>
+                        <th>OK</th>
+                        <th>NOK</th>
+                    </tr>
+                    <tr>
+                        <td>Oleo motor</td>
+                        <td><input type="radio" id="Oleo_motor" name="Oleo_motor" value=""></td>
+                        <td><input type="radio" id="Oleo_motor" name="Oleo_motor" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Agua do radiador</td>
+                        <td><input type="radio" id="Agua_radiador" name="Agua_radiador" value=""></td>
+                        <td><input type="radio" id="Agua_radiador" name="Agua_radiador" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Freios</td>
+                        <td><input type="radio" id="Freios" name="Freios" value=""></td>
+                        <td><input type="radio" id="Freios" name="Freios" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Embreagem</td>
+                        <td><input type="radio" id="Embreagem" name="Embreagem" value=""></td>
+                        <td><input type="radio" id="Embreagem" name="Embreagem" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Coletor</td>
+                        <td><input type="radio" id="Coletor" name="Coletor" value=""></td>
+                        <td><input type="radio" id="Coletor" name="Coletor" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Pneus</td>
+                        <td><input type="radio" id="Pneus" name="Pneus" value=""></td>
+                        <td><input type="radio" id="Pneus" name="Pneus" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Nivel óleo hidraulico</td>
+                        <td><input type="radio" id="Nivel_oleo" name="Nivel_oleo" value=""></td>
+                        <td><input type="radio" id="Nivel_oleo" name="Nivel_oleo" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Extintor</td>
+                        <td><input type="radio" id="Extintor" name="Extintor" value=""></td>
+                        <td><input type="radio" id="Extintor" name="Extintor" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Sistema Iluminação</td>
+                        <td><input type="radio" id="Sistema_ilu" name="Sistema_ilu" value=""></td>
+                        <td><input type="radio" id="Sistema_ilu" name="Sistema_ilu" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Garfo</td>
+                        <td><input type="radio" id="Garfo" name="Garfo" value=""></td>
+                        <td><input type="radio" id="Garfo" name="Garfo" value=""> </td>
+                    </tr>
+                    <tr>
+                        <td>Torre</td>
+                        <td><input type="radio" id="Torre" name="Torre" value=""></td>
+                        <td><input type="radio" id="Torre" name="Torre" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Botijão</td>
+                        <td><input type="radio" id="Botijao" name="Botijao" value=""></td>
+                        <td><input type="radio" id="Botijao" name="Botijao" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Assento</td>
+                        <td><input type="radio" id="Assento" name="Assento" value=""></td>
+                        <td><input type="radio" id="Assento" name="Assento" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Equipamento Limpo</td>
+                        <td><input type="radio" id="Limpo" name="Limpo" value=""></td>
+                        <td><input type="radio" id="Limpo" name="Limpo" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Correntes (Torre)</td>
+                        <td><input type="radio" id="Correntes" name="Correntes" value=""></td>
+                        <td><input type="radio" id="Correntes" name="Correntes" value=""></td>
+                    </tr>
+                    <tr class="cinza">
+                        <td>Pintura</td>
+                        <td><input type="radio" id="Pintura" name="Pintura" value=""></td>
+                        <td><input type="radio" id="Pintura" name="Pintura" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mangueiras (Torre)</td>
+                        <td><input type="radio" id="Mangueiras" name="Mangueiras" value=""></td>
+                        <td><input type="radio" id="Mangueiras" name="Mangueiras" value=""></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div>
+                <br />
+                <label for="OBS">Observações</label>
+                <input type="text" id="OBS" style="width: 250px; height: 45px;">
+                <br />
+            </div>
+
+            <button type="submit">Enviar</button>
+            <br>
+        </div>
+
+    </div>
+</body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font: 15px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        font-weight: bold;
+    }
+
+    .cabecalho {
+        height: 50px;
+        background-color: rgb(228, 228, 228);
+        border-top: 5px solid red;
+
+    }
+
+    .container {
+        width: 312px;
+        margin: 25px auto;
+        align-items: center;
+    }
+
+    .img {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        width: 300px;
+        height: 240px;
+        background: rgba(255, 255, 255, 0.2);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        margin-left: 5px;
+
+    }
+
+    .box img {
+        width: 50px;
+        margin-bottom: -40px;
+        margin-top: -90px;
+        margin-left: 120px;
+    }
+
+    .box div {
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+
+    .box label {
+        display: block;
+        padding-left: 40px;
+        height: 18px;
+        cursor: pointer;
+
+    }
+
+    .box input {
+        width: 220px;
+        height: 23px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 7px;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+
+    }
+
+    .box button {
+        margin: 17px auto;
+        display: block;
+        width: 220px;
+        height: 30px;
+        border-radius: 7px;
+        border: 2px solid rgb(0, 0, 0);
+        background: rgba(212, 40, 40, 0.959);
+        font: 15px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        font-weight: bold;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    #Sel_empilhadeira {
+        margin: 0 auto;
+        display: block;
+        width: 220px;
+        height: 30px;
+        border-radius: 7px;
+        border: 2px solid rgb(0, 0, 0);
+        outline: 0;
+    }
+
+    /* Estilo Tela coletor*/
+
+    .boxC {
+        width: 300px;
+        background: rgb(224, 224, 224);
+        margin-top: -10px;
+        padding-top: 15px;
+        border-radius: 10px;
+    }
+
+    .boxC p {
+        font: 12px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        width: 300px;
+
+    }
+
+    .boxC input {
+        margin: 4px auto;
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+
+    .boxC button {
+        margin: 17px auto;
+        margin-bottom: 15px;
+        display: block;
+        width: 220px;
+        height: 30px;
+        border-radius: 7px;
+        border: 2px solid rgb(0, 0, 0);
+        background: rgba(212, 40, 40, 0.959);
+        font: 15px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        font-weight: bold;
+        outline: 0;
+        box-shadow: 0 0 0 0;
+    }
+
+    .centro {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .cinza {
+        background: rgb(168, 168, 168);
+        border: 1px black;
+    }
+</style>
+
+</html>
