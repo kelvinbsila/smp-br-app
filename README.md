@@ -1,10 +1,8 @@
-![logo](https://user-images.githubusercontent.com/58003503/94343747-b7da6a80-fff0-11ea-9859-323782609ce5.png)
-
+![logo](https://user-images.githubusercontent.com/58003503/94344325-d7739200-fff4-11ea-94c7-21d5f64f055d.png)
 
 
 # SMP-BR-APP
 
-![PC 2](https://user-images.githubusercontent.com/58003503/94344091-51a31700-fff3-11ea-9b75-f311ad7e3299.JPG)
 ![4gdbp0](https://user-images.githubusercontent.com/58003503/94344236-3dabe500-fff4-11ea-8084-1c79c16bc686.gif)
 
 
