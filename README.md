@@ -4,13 +4,15 @@
 
 # SMP-BR-APP
 
+![PC 2](https://user-images.githubusercontent.com/58003503/94344091-51a31700-fff3-11ea-9b75-f311ad7e3299.JPG)
+
 
 
 ### *Descrição* :grey_exclamation:
 Sistema para automatizar processo de conferencia de empilhadeira na troca de turno
 Sistema responivo para uso no Coletor de dado MC32U e para Desktops
-> Desenvolimento Front-end: Finalizando
-> Desenvolvimento Back-end: Sendo desenvolvido
+> Status do projeto: em desenvolvimento
+> Apenas Front-end desenvolvido
 
 
 ### *Getting started* :arrow_forward:
